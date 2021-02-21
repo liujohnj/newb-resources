@@ -5,7 +5,7 @@ The GitHub commands below are just the ones that I use for the particular use ca
 
 
 **Steps:**
-- On your local machine *that already has git installed on it*, from a terminal window inside Visual Studio Code or any terminal window (e.g., PowerShell), create a project folder that will contain all the files you want to download, e.g., C:\Users\John\projects\my-project.  
+- On your local machine *that already has git installed on it*, from a terminal window inside Visual Studio Code or any terminal window (e.g., PowerShell), create a project folder that will contain all the files you want to download, e.g., C:\Users\myName\projects\my-project.  
 `> mkdir C:\Users\myName\projects\my-project`
 - Change directories into this new folder.  
 `> cd C:\Users\myName\projects\my-project`
@@ -30,7 +30,7 @@ The GitHub commands below are just the ones that I use for the particular use ca
 `> git add .`
 - Alternatively, you could have singled out one or more certain files, e.g., `git add oneFile.c anotherFile.h`
 - Now, if you run `git status`, the files you indicated you wanted to add will have their status changed (and may appear in green).
-- Commit these files and provide a short Git message (e.g., 'Initial commit' if you are adding a new file or 'Add new setter function' if you are just modifying something).  I believe that the correct convention is to write the message in the imperative (e.g., "Fix bug" and not "Fixed bug").  The messages make more sense if you are making small commits frequently.  
+- Commit these files and provide a short Git message (e.g., "Initial commit" if you are adding a new file or "Add new setter function" if you are just modifying something).  I believe that the correct convention is to write the message in the imperative (e.g., "Fix bug" and not "Fixed bug").  The messages make more sense if you are making small commits frequently.  
 ` git commit -m "Initial commit"`
 - Push everything to the remote repository.  
 `> git push`
